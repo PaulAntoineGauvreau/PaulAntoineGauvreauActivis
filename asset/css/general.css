@@ -1,0 +1,87 @@
+:root {
+
+  --color-background: #F2F2F2;
+  --color-text: #686868;
+  --color-heading: #151515 ;
+  --black: #151515;
+  --white:#F2F2F2; 
+  --color-border: #151515;
+
+  --font-main: 'Epilogue', sans-serif;
+  --font-size-header: 80px;
+  --font-size-header-mobile: 36px;
+  --font-size-text: 18px;
+  --font-size-nav-logo: 35px;
+}
+
+
+/* Rétablissement des marges règles de bases ------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+
+/* Règles génériques ----------------------- */
+
+body {
+  font-family: var(  --font-main);
+}
+
+h1,
+h2{
+  color: var(--color-heading);
+}
+
+p{
+  color: var(--color-text)
+}
+
+/* Rythme de chq section Principale -----------------------------------------------*/
+
+.a{
+  height: 10px;
+  width: 10px;
+  background: blue;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.b{
+  height: 10px;
+  width: 10px;
+  background: hotpink;
+  margin: 20px;
+  opacity: 0;
+  
+}
+
+.a:hover+.b {
+  background-color: aqua;
+  opacity: 1;
+  height: 300px;
+  transition: all 1000ms ease;
+}

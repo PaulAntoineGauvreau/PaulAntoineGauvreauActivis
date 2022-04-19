@@ -135,7 +135,6 @@ nav {
   color:  var(--medium-gray);
 }
 
-
 .register:hover{
   border: 1px var(--color-text) solid;
 }
@@ -205,7 +204,7 @@ section button:hover {
 }
 
 figure {
-  width: 50%;
+  min-width: 50%;
 }
 
 
@@ -213,11 +212,6 @@ aside {
   margin-top: 60px;
 }
 
-/* Affichage Image header ------------------------------------------------- */
-
-
-
-/* Page accueil Hero ------------------------------------------------------ */
 
 
 

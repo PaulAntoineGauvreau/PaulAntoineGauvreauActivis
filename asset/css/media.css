@@ -29,22 +29,28 @@
 
   section h2 {
     font-size: var(--font-size-header-mobile);
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   section button {
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px;
   }
 
+  section p {
+    font-size: var(--font-size-text-mobile);
+  }
 
   aside{
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
     max-width: 65ch;
   }
 
-  section,
+  section {
+    padding: 10px;
+  }
+
   main {
     padding: 0;
   }

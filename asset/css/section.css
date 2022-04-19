@@ -176,6 +176,10 @@ section h2{
   margin-top: 30px;
 }
 
+section h2 span{
+  display: block;
+} 
+
 section p {
   text-align: left;
   font-size: var(--font-size-text);

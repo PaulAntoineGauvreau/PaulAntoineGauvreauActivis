@@ -1,13 +1,78 @@
-/* Header ----------------------------------------------------------------- */
+/* Nav ----------------------------------------------------------------- */
+
+nav {
+  padding: 15px;
+}
+
+.navLeft,
+.navRight,
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Nav Mobile----------------------------------------------------------------- */
+
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content:space-evenly;
+  height: 30px;
+}
+
+.ligneBurger {
+  width: 30px;
+  height: 2px;
+  background: var(--black);
+  display: block;
+}
+
+.imageMobile{
+  display: none;
+}
 
 
 
-/* Les input  ------------------------------------------------------------- */
 
 
+/* Section Texte Header  ------------------------------------------------------------- */
 
+section {
+  padding: 15px;
+  margin-top: 30px;
+}
 
-/* Fil d'ariane ----------------------------------------------------------- */
+section>h2{
+  font-size: var(--font-size-header-mobile);
+  text-align: center;
+  margin-top: 30px;
+}
+
+section>p {
+  text-align: center;
+  font-size: var(--font-size-text-mobile);
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+section>button {
+  background: var(--black);
+  color: var(--white);
+  padding: 15px 23px; 
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-size: var(--font-size-text-mobile);
+  font-weight: 500;
+}
+
+/* Logo partner ----------------------------------------------------------- */
+
+aside{
+  margin: auto;
+  margin-top: 50px;
+}
 
 
 /* Affichage Image header ------------------------------------------------- */

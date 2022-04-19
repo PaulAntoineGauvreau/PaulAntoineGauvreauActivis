@@ -24,5 +24,17 @@
 
 
 @media (max-width:420px){
+  .imageLargeScreen,
+  .navLeft ul,
+  .navRight ul{
+    display: none;
+  }
 
+  .imageMobile{
+    display: block;
+  }
+
+  .burger{
+    display: flex;
+  }
 }

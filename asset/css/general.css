@@ -11,6 +11,7 @@
   --font-size-header: 80px;
   --font-size-header-mobile: 36px;
   --font-size-text: 18px;
+  --font-size-text-mobile: 16px;
   --font-size-nav-logo: 35px;
 }
 
@@ -49,11 +50,16 @@ img {
 
 body {
   font-family: var(  --font-main);
+  background: var(--color-background);
 }
 
 h1,
 h2{
   color: var(--color-heading);
+}
+
+h1 {
+  font-size: var(--font-size-nav-logo);
 }
 
 p{

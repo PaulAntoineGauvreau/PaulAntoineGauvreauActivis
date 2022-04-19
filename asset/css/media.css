@@ -1,6 +1,6 @@
 /* Écran ----------------------------------------------------------------------------------------- */
 
-@media (max-width:1200px){
+@media (max-width:1100px){
   .imageLargeScreen,
   .navLeft ul,
   .navRight ul{
@@ -50,15 +50,10 @@
 
   section {
     padding: 10px;
+    margin: auto;
   }
 
   main {
     padding: 0;
   }
-
-  figure{
-    width: 100%;
-    padding: 0;
-  }
-
 }

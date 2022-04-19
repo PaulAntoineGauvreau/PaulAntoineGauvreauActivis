@@ -153,7 +153,7 @@ nav {
 main {
   display: flex;
   padding: 60px 100px;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -168,6 +168,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 525px;
 }
 
 section h2{
@@ -185,7 +186,6 @@ section p {
   font-size: var(--font-size-text);
   line-height: 26px;
   margin-top: 30px;
-  max-width: 45ch;
 }
 
 section button {
@@ -207,12 +207,18 @@ section button:hover {
 
 }
 
+
+.imageLargeScreen {
+  max-width: 480px;
+ }
+
 figure {
-  width: 50%;
+  max-height: 640px;
 }
 
 aside {
   margin-top: 60px;
+  max-width: 525px;
 }
 
 

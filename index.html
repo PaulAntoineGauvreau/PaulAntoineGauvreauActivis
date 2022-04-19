@@ -19,28 +19,30 @@
        <nav>
            <div class="navLeft">
                 <h1>snap</h1>
-                <ul>
-                    <li>Features</li>
-                    <ul>
-                        <li><a href="#"> Todo list</a></li>
-                        <li><a href="#">Calendar</a></li>
-                        <li><a href="#">Reminders</a></li>
-                        <li><a href="#">Planning</a></li>
-                    </ul>
-                    <li>Company</li>
-                        <ul>
+                <ul class="menuPricipale">
+                    <li class="dropdown features">Features<img class="chevron" src="/asset/logo/chevron.png" alt="chevron">
+                        <ul class="menuSecondaire menuFeatures dropdown-content">
+                            <li> <img src="/asset/logo/list.svg" alt="todo"> <a href="#"> Todo List</a></li>
+                            <li> <img src="/asset/logo/calendar.svg" alt="calender"> <a href="#">Calendar</a></li>
+                            <li> <img src="/asset/logo/bell.svg" alt="bell"> <a href="#">Reminders</a></li>
+                            <li> <img src="/asset/logo/combinedShape.svg" alt="target"> <a href="#">Planning</a></li>
+                        </ul>
+                    </li>
+                    <li class="compagny dropdown">Company<img class="chevron"  src="/asset/logo/chevron.png" alt="chevron"> 
+                        <ul class="menuSecondaire menuCompany dropdown-content">
                             <li><a href="#">History</a></li>
                             <li><a href="#">Our team</a></li>
                             <li><a href="#">Blog</a></li>
                         </ul>
+                    </li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
             </div>
             <div class="navRight">
-                <ul>
+                <ul class="menuPricipale">
                     <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
+                    <li class="register"><a href="#">Register</a></li>
                 </ul>
                 <div class="burger">
                     <div class="ligneBurger"></div>
@@ -56,9 +58,11 @@
                  <img class="imageMobile"src="/asset/img/hearderMobile.png" alt="laptop image">
              </figure>
              <section>
-                 <h2>Make remote work</h2>
-                 <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-                 <button>Learn more</button>
+                 <div>
+                    <h2>Make remote work</h2>
+                    <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                    <button>Learn more</button>
+                 </div>
                  <aside><img src="/asset/img/logo.png" alt="logo partners"></aside>
              </section>
         </main>

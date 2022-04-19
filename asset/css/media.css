@@ -1,29 +1,6 @@
 /* Écran ----------------------------------------------------------------------------------------- */
 
-
 @media (max-width:900px){
-
-
-}
-@media (max-width:1080px){
-
-
-}
-
-@media (min-width:1200px){
-
-
-
-}
-
-@media (max-width:700px){
-
-
-}
-
-
-
-@media (max-width:420px){
   .imageLargeScreen,
   .navLeft ul,
   .navRight ul{
@@ -37,4 +14,44 @@
   .burger{
     display: flex;
   }
+
+  main{
+    display: block;
+  }
+
+  section h2,
+  section p {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 65ch;
+  } 
+
+  section h2 {
+    font-size: var(--font-size-header-mobile);
+    margin-top: 30px;
+  }
+
+  section button {
+    margin: auto;
+    margin-top: 30px;
+  }
+
+
+  aside{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 65ch;
+  }
+
+  section,
+  main {
+    padding: 0;
+  }
+
+  figure{
+    width: 100%;
+    padding: 0;
+  }
+
 }

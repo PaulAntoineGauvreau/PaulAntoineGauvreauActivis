@@ -5,6 +5,7 @@
   --color-heading: #151515 ;
   --black: #151515;
   --white:#F2F2F2; 
+  --medium-gray:#C4C4C4;
   --color-border: #151515;
 
   --font-main: 'Epilogue', sans-serif;
@@ -51,6 +52,7 @@ img {
 body {
   font-family: var(  --font-main);
   background: var(--color-background);
+
 }
 
 h1,
@@ -62,32 +64,13 @@ h1 {
   font-size: var(--font-size-nav-logo);
 }
 
+
 p{
   color: var(--color-text)
 }
 
-/* Rythme de chq section Principale -----------------------------------------------*/
-
-.a{
-  height: 10px;
-  width: 10px;
-  background: blue;
-  margin: 20px;
-  cursor: pointer;
+.chevron {
+  height: 4px;
+  width: 8px;
 }
 
-.b{
-  height: 10px;
-  width: 10px;
-  background: hotpink;
-  margin: 20px;
-  opacity: 0;
-  
-}
-
-.a:hover+.b {
-  background-color: aqua;
-  opacity: 1;
-  height: 300px;
-  transition: all 1000ms ease;
-}

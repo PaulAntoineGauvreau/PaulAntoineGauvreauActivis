@@ -204,13 +204,13 @@ section button:hover {
 }
 
 figure {
-  min-width: 50%;
+  width: 50%;
 }
-
 
 aside {
   margin-top: 60px;
 }
+
 
 
 

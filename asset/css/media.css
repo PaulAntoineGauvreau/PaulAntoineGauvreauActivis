@@ -1,6 +1,6 @@
 /* Écran ----------------------------------------------------------------------------------------- */
 
-@media (max-width:900px){
+@media (max-width:1200px){
   .imageLargeScreen,
   .navLeft ul,
   .navRight ul{
@@ -44,6 +44,7 @@
   aside{
     margin: auto;
     margin-top: 60px;
+    margin-bottom: 60px;
     max-width: 65ch;
   }
 
